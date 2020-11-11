@@ -1,10 +1,10 @@
 import inmueble.*
 
-class Operacion {
+class Operacion { //en las respuestas se crea una variable estado y cambia entre reservado y asi
 	var inmueble
 	var concretada
 	
-	method comisionAgente()
+	method comisionAgente()	
 
 	method reservarOperacion(cliente,unInmueble,empleado){
 		inmueble = unInmueble
